@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * puts function to print message in screen
+ * main - the entry and the only function
  *
- * main - is the main function of this code
+ * Description: 'This code print message to the screen'
  *
- * return - always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
