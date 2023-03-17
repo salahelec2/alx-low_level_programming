@@ -4,7 +4,7 @@
  *
  * Description: 'This code print message to the standard error stream'
  *
- * Return : 1
+ * Return : 1 (Fail)
  */
 int main(void)
 {
