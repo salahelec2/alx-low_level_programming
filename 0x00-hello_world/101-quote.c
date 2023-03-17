@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main - the entry and the only function to print "and that piece of art is useful " - Dora Korpar, 2015-10-19"
+ * main - to print error message
  *
  * Description: 'This code print message to the standard error stream'
  *
- * Return: Always 1 (Fail)
+ * Return: always 1
  */
 int main(void)
 {
