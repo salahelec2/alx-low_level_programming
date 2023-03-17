@@ -1,5 +1,5 @@
-#include<stdio.h>
-/*
+#include <stdio.h>
+/**
  * puts function to print message in screen 
  */
 int main(void)
