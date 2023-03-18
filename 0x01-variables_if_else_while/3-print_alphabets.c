@@ -11,7 +11,8 @@
  */
 int main(void)
 {
-	char alphabetL[] = "abcdefghijklmnopqrstuvwxyz", alphabetU[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alphabetL[] = "abcdefghijklmnopqrstuvwxyz", 
+	char alphabetU[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i <= 25 ; ++i)
