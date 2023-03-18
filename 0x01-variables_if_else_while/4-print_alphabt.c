@@ -5,7 +5,7 @@
 /**
  * main - the entry and the only function
  *
- * Description: 'print from a to z'
+ * Description: 'print from a to z except e and q'
  *
  * Return: Always 0
  */
