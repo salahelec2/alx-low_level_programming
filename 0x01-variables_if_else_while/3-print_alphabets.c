@@ -6,7 +6,7 @@
  * main - the entry and the only function
  *
  * Description: 'print from a to zin upper and lower case'
- * 
+ *
  * Return: Always 0
  */
 int main(void)
