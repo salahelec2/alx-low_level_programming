@@ -10,7 +10,6 @@
  */
 int main(void)
 {
-	char alphabet[] = "0123456789abcdef";
 	int i;
 
 	for (i = 0; i <= 9 ; ++i)
