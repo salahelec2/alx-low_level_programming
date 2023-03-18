@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	char alphabetL[] = "abcdefghijklmnopqrstuvwxyz", 
+	char alphabetL[] = "abcdefghijklmnopqrstuvwxyz"; 
 	char alphabetU[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
