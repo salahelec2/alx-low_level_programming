@@ -5,13 +5,13 @@
 /**
  * main - the entry and the only function
  *
- * Description: 'print from a to z'
- *
+ * Description: 'print from a to zin upper and lower case'
+ * 
  * Return: Always 0
  */
 int main(void)
 {
-	char alphabetL[] = "abcdefghijklmnopqrstuvwxyz"; 
+	char alphabetL[] = "abcdefghijklmnopqrstuvwxyz";
 	char alphabetU[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
