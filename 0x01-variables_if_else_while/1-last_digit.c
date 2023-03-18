@@ -5,13 +5,13 @@
 /**
  * main - the entry and the only function
  *
- * Description: 'test a random number if it is 0 negative or positive'
+ * Description: 'last digit of a random number'
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int n,ld;
+	int n, ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
