@@ -10,7 +10,7 @@ void print_alphabet(void)
 {
 	int ch;
 
-	for (ch = 97; ch <= 122; i++)
+	for (ch = 97; ch <= 122; ++ch)
 		_putchar(i);
 	return (0);
 }
