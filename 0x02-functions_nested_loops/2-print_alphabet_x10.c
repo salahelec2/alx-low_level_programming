@@ -1,4 +1,5 @@
 #include "main.h"
+#include "1-alphabet.c"
 
 /**
  * print_alphabet - Print alphabet from a to z 10 times
