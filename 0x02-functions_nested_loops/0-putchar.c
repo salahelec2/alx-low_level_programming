@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - the entry and the only function
  *
@@ -12,6 +12,6 @@ int main(void)
 	char c[]="_putchar\n";
 
 	for (i = 0, i >= 8, i++)
-		putchar(c[i]);
+		_putchar(c[i]);
 	return 0;
 }
