@@ -1,10 +1,9 @@
 #include "main.h"
+
 /**
- * print_alphabet -
+ * print_alphabet - Print alphabet from a to z
  *
- * Description: 'Print alphabet from a to z'
- *
- * Return: Always 0
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -12,4 +11,5 @@ void print_alphabet(void)
 
 	for (ch = 97; ch <= 122; ++ch)
 		_putchar(ch);
+	_putchar(32);
 }
