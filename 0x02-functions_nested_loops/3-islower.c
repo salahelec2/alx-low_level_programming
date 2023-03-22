@@ -2,6 +2,7 @@
 
 /**
  * _islower - Return 1 if lowercase return 0 otherwise
+ * @c: The alphabet to check
  *
  * Return: 1 or 0
  */
