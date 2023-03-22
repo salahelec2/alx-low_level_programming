@@ -8,7 +8,13 @@
  */
 int _abs(int n)
 {	
-	int m;
-	m = pow(n, 2);
-	return (m);
+	int abs;
+
+	if (n < 0)
+	{
+		abs = n * -1;
+		return (abs);
+	}
+	else 
+		return (n);
 }
