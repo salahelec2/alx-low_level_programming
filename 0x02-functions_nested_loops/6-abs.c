@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <math>
 /**
  * _abs - return abolute value
  * @n: The number to check
@@ -9,7 +9,6 @@
 int _abs(int n)
 {	
 	int m;
-	m = n * n;
-	m = m /n;
+	m = pow(n, 2);
 	return (m);
 }
