@@ -13,13 +13,12 @@ void print_times_table(int t)
 	if (t > 15 || t < 0)
 		return;
 	_putchar(48);
-	while (n < t)
+	while (n++ < t)
 		{
 		_putchar(44);
 		for (i = 0; i < 3; i++)
 			_putchar(32);
 		_putchar(48);
-		n++;
 		}
 	_putchar(10);
 	for (row = 0; row < t; row++)
