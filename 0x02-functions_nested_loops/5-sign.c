@@ -17,14 +17,11 @@ int print_sign(int n)
 		case 1:
 			_putchar(43);
 			return (1);
-			break;
 		case -1:
 			_putchar(45);
 			return (-1);
-			break;
 		case 0:
 			_putchar(48);
 			return (0);
-			break;
 	}
 }
