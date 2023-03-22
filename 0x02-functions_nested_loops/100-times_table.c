@@ -40,11 +40,10 @@ void print_times_table(int t)
 			_putchar(32);
 			_putchar((col / 10) + 48);
 			}
-		else if(col > 99)
+		else if (col > 99)
 			{
 			_putchar((col / 100) + 48);
 			_putchar((col % 100) / 10 + 48);
-			_putchar((col % 10) + 48);
 			}
 		_putchar((col % 10) + 48);
 		}
