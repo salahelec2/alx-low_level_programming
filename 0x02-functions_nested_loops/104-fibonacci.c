@@ -23,6 +23,5 @@ int main(void)
 		b = c;
 		n++;
 	}
-	putchar(10);
 	return (0);
 }
