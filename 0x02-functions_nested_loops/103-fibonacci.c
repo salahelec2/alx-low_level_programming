@@ -1,14 +1,14 @@
 #include<stdio.h>
 
 /**
-*main-theonlyfunctioninthiscode
-*Description:sumofevennumbers.
-*Return:0
+* main- the only function in this code
+* Description : sum of even numbers.
+* Return:0
 */
 int main(void)
 {
 	long int total, a, b, c;
-	
+
 	total = c = 0;
 	b = 2;
 	a = 1;
@@ -18,8 +18,8 @@ int main(void)
 		a = b;
 		b = c;
 		if ((a % 2) == 0)
-			total+=a;
+			total += a;
 	}
-	printf("%ld",total);
+	printf("%ld", total);
 	return(0);
 }
