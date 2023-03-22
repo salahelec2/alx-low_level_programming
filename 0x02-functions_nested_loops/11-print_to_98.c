@@ -4,7 +4,7 @@
 /**
 * print_to_98 - print until reach 98.
 *
-* Return: void 
+* Return: void
 */
 void print_to_98(int n)
 {
@@ -16,8 +16,7 @@ void print_to_98(int n)
 	else if (n != 98)
 	{
 		reach = n;
-		do
-		{
+		do {
 			if (n < 98)
 			{
 				printf("%d, ", reach);
@@ -30,7 +29,6 @@ void print_to_98(int n)
 			}
 			if (reach == 98)
 				printf("%d\n", reach);
-		} while(reach != 98);
+		} while (reach != 98);
 	}
-
 }
