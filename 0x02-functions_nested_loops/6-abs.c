@@ -1,8 +1,4 @@
 #include "main.h"
-#ifdef _putchar
-#define _putchar
-#include "_putchar.c"
-#endif
 
 /**
  * _abs - return abolute value
