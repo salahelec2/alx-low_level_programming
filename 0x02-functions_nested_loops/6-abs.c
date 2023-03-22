@@ -1,5 +1,5 @@
 #include "main.h"
-#include <math>
+#include <math.h>
 /**
  * _abs - return abolute value
  * @n: The number to check
