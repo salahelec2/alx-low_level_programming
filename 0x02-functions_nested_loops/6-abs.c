@@ -7,6 +7,9 @@
  * Return: absolute of n
  */
 int _abs(int n)
-{
-	return ((n*n)/n);
+{	
+	int m;
+	m = n * n
+	m = m /n
+	return (m);
 }
