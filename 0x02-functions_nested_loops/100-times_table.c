@@ -21,9 +21,9 @@ void print_times_table(int t)
 		_putchar(48);
 		n++;
 		}
+	_putchar(10);
 	for (row = 0; row < t; row++)
 		{
-		_putchar(10);
 		_putchar(48);
 		for (col = mult; col <= mult * t; col += mult)
 		{
@@ -47,5 +47,6 @@ void print_times_table(int t)
 		_putchar((col % 10) + 48);
 		}
 		mult++;
+		_putchar(10);
 		}
 }
