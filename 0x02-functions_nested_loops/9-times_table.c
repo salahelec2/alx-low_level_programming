@@ -21,7 +21,7 @@ void times_table(void)
 		n++;
 		}
 	_putchar(10);
-	for (row = 0; row < 10; row++)
+	for (row = 0; row < 9; row++)
 		{
 		_putchar(48);
 		for (col = mult; col <= mult * 9; col += mult)
