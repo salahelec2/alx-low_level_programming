@@ -16,7 +16,7 @@ void print_times_table(int t)
 	while (n < t)
 		{
 		_putchar(44);
-		for (i = 0; i < 2; i++)		
+		for (i = 0; i < 3; i++)
 			_putchar(32);
 		_putchar(48);
 		n++;
