@@ -1,5 +1,9 @@
 #include "main.h"
+#ifdef _putchar.c
+#define _putchar.c
 #include "_putchar.c"
+#endif
+
 /**
  * print_sign - test the signe of given number
  * @n: The number to check
