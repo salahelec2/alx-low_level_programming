@@ -7,9 +7,21 @@
 */
 void times_table(void)
 {
-	int col, row, mult;
+	int col, row, mult, n;
 
 	mult = 1;
+	n = 0;
+	_putchar(48);
+	while (n < 9)
+		{
+		_putchar(44);
+		_putchar(32);
+		_putchar(32);
+		_putchar(48);
+		n++;
+		}
+	_putchar(8);
+	_putchar(10);
 	for(row = 0; row < 10; row++)
 		{
 		_putchar(48);
