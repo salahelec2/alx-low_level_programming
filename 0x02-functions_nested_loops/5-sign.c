@@ -11,12 +11,15 @@ int print_sign(int n)
 	switch ((n > 0) ? 1 : (n < 0) ? -1 : 0) {
 		case 1:
 			return (1);
+			_putchar(43);
 			break;
 		case -1:
 			return (-1);
+			_putchar(45);
 			break;
 		case 0:
 			return (0);
+			_putchar(48);
 			break;
 	}
 }
