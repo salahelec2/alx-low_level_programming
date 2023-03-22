@@ -9,7 +9,7 @@
 int _abs(int n)
 {	
 	int m;
-	m = n * n
-	m = m /n
+	m = n * n;
+	m = m /n;
 	return (m);
 }
