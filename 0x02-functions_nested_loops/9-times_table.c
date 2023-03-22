@@ -10,7 +10,7 @@ void times_table(void)
 	int col, row, mult, n;
 
 	mult = 1;
-	n = 0;
+	n = 1;
 	_putchar(48);
 	while (n < 9)
 		{
@@ -20,21 +20,20 @@ void times_table(void)
 		_putchar(48);
 		n++;
 		}
-	_putchar(8);
 	_putchar(10);
-	for(row = 0; row < 10; row++)
+	for (row = 0; row < 10; row++)
 		{
 		_putchar(48);
-		for(col = mult; col <= mult * 9; col += mult)
+		for (col = mult; col <= mult * 9; col += mult)
 		{
 		_putchar(44);
-		if(col < 9 || col == 9)
+		if (col < 9 || col == 9)
 			{
 			_putchar(32);
 			_putchar(32);
 			_putchar(col + 48);
 			}
-		else if(col > 9)
+		else if (col > 9)
 			{
 			_putchar(32);
 			_putchar((col / 10) + 48);
