@@ -2,13 +2,13 @@
 
 /**
 * print_times_table - print n times table starting with 0.
-* @t number of times
+* @t: number of times
 *
 * Return:0
 */
 void print_times_table(int t)
 {
-	int col, row, mult = 1, n = 0;
+	int col, row, mult = 1, n = 0, i;
 
 	if (t > 15 || t < 0)
 		return;
@@ -16,15 +16,14 @@ void print_times_table(int t)
 	while (n < t)
 		{
 		_putchar(44);
-		_putchar(32);
-		_putchar(32);
-		_putchar(32);
+		for (i = 0; i < 2; i++)		
+			_putchar(32);
 		_putchar(48);
 		n++;
 		}
-	_putchar(10);
 	for (row = 0; row < t; row++)
 		{
+		_putchar(10);
 		_putchar(48);
 		for (col = mult; col <= mult * t; col += mult)
 		{
@@ -47,7 +46,6 @@ void print_times_table(int t)
 			}
 		_putchar((col % 10) + 48);
 		}
-		_putchar(10);
 		mult++;
 		}
 }
