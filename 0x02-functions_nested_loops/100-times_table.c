@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-* times_table - print 9 times table starting with 0.
+* print_times_table - print n times table starting with 0.
+* @t number of times
 *
 * Return:0
 */
@@ -9,7 +10,8 @@ void print_times_table(int t)
 {
 	int col, row, mult, n;
 
-	if (t > 15 || t < 0) return;
+	if (t > 15 || t < 0)
+		return;
 	mult = 1;
 	n = 0;
 	_putchar(48);
@@ -46,9 +48,9 @@ void print_times_table(int t)
 		else if(col > 99)
 			{
 			_putchar(32);
-			_putchar((col/100)+48);
-			_putchar((col%100)/10+48);
-			_putchar((col%10)+48);
+			_putchar((col / 100) + 48);
+			_putchar((col % 100) / 10 + 48);
+			_putchar((col % 10) + 48);
 			}
 		}
 		_putchar(10);
