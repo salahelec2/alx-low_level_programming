@@ -16,9 +16,9 @@ int main(void)
 	{
 		c = b + a;
 		if (a == 1)
-			printf("%lld", a);
+			printf("%ld", a);
 		else 
-			printf(", %lld", a);
+			printf(", %ld", a);
 		a = b;
 		b = c;
 		n++;
