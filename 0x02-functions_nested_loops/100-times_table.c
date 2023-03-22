@@ -29,27 +29,24 @@ void print_times_table(int t)
 		for (col = mult; col <= mult * t; col += mult)
 		{
 		_putchar(44);
+		_putchar(32);
 		if (col < 9 || col == 9)
 			{
 			_putchar(32);
 			_putchar(32);
-			_putchar(32);
-			_putchar(col + 48);
 			}
 		else if (col > 9 && col <= 99)
 			{
 			_putchar(32);
-			_putchar(32);
 			_putchar((col / 10) + 48);
-			_putchar((col % 10) + 48);
 			}
 		else if(col > 99)
 			{
-			_putchar(32);
 			_putchar((col / 100) + 48);
 			_putchar((col % 100) / 10 + 48);
 			_putchar((col % 10) + 48);
 			}
+		_putchar((col % 10) + 48);
 		}
 		_putchar(10);
 		mult++;
