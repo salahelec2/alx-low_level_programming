@@ -29,7 +29,7 @@ void jack_bauer(void)
 				{
 				_putchar(48);
 				_putchar(48 + minute);
-				_putchar(10);	
+				_putchar(10);
 				}
 			else if (minute > 9)
 				{
