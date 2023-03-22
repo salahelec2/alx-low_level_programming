@@ -3,7 +3,7 @@
 
 /**
 * print_to_98 - print until reach 98.
-*
+* @n: the number to test and start print from
 * Return: void
 */
 void print_to_98(int n)
