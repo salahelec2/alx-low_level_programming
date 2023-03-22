@@ -1,6 +1,6 @@
 #include "main.h"
-#ifdef _putchar.c
-#define _putchar.c
+#ifdef _putchar
+#define _putchar
 #include "_putchar.c"
 #endif
 
@@ -12,7 +12,8 @@
  */
 int print_sign(int n)
 {
-	switch ((n > 0) ? 1 : (n < 0) ? -1 : 0) {
+	switch ((n > 0) ? 1 : (n < 0) ? -1 : 0)
+	{
 		case 1:
 			_putchar(43);
 			return (1);
