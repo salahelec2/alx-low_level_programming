@@ -6,9 +6,9 @@
  *
  * Return: 0
  */
-int print_last_digit(int n)
+int print_last_digit(long int n)
 {
-	unsigned int last;
+	int last;
 
 	if (n < 0)
 		n = n * -1;
