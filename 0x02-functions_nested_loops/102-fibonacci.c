@@ -17,7 +17,7 @@ int main(void)
 		c = b + a;
 		if (a == 1)
 			printf("%ld", a);
-		else 
+		else
 			printf(", %ld", a);
 		a = b;
 		b = c;
