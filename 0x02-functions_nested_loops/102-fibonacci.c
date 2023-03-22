@@ -12,10 +12,13 @@ int main(void)
 	n = c = 0;
 	b = 2;
 	a = 1;
-	while (n <= 50)
+	while (n < 50)
 	{
 		c = b + a;
-		printf("%ld\n", a);
+		if (a == 1)
+			printf("%lld", a);
+		else 
+			printf(", %lld", a);
 		a = b;
 		b = c;
 		n++;
