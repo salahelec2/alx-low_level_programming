@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	int n, a, b, c;
-	
+	long int n, a, b, c;
+
 	n = c = 0;
 	b = 2;
 	a = 1;
 	while (n <= 50)
 	{
 		c = b + a;
-		printf("%d\n", a );
+		printf("%ld\n", a);
 		a = b;
 		b = c;
 		n++;
