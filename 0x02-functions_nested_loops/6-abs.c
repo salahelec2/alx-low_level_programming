@@ -7,7 +7,7 @@
  * Return: absolute of n
  */
 int _abs(int n)
-{	
+{
 	int abs;
 
 	if (n < 0)
@@ -15,6 +15,6 @@ int _abs(int n)
 		abs = n * -1;
 		return (abs);
 	}
-	else 
+	else
 		return (n);
 }
