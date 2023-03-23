@@ -20,13 +20,13 @@ void print_triangle(int size);
 		empty = size - row;
 		for (hash = 1; hash <= size; hash++)
 		{
-			if (empty > 0)
+			if (empty >= 0)
 				_putchar(32);
 			else
 				_putchar(35);
 			empty--;
-				
 		}
+		_putchar(10);
 	}
 }
 
