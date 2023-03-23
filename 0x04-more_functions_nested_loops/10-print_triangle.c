@@ -12,15 +12,15 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-		_putchar(10);
+		_putchar('\n');
 		return;
 	}
 	for (row = 1; row <= size; row++)
 	{
 		empty = size - row;
-		for (hash = 0; hash <= size; hash++)
+		for (hash = 1; hash <= size; hash++)
 		{
-			if (empty >= 0)
+			if (empty > 0)
 				_putchar(32);
 			else
 				_putchar(35);
