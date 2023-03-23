@@ -5,10 +5,10 @@
  * @a: 1st integer
  * @b: 2nd integer
  *
- * Return: the multiplication value
+ * Return: Result
  */
 
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }
