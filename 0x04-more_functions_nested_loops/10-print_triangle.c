@@ -10,15 +10,16 @@ void print_triangle(int size)
 {
 	int empty, hash, row;
 
-	if (size <= 0)
+	if (size == 0)
 	{
 		_putchar(32);
+		_putchar(10);
 		return;
 	}
 	for (row = 1; row <= size; row++)
 	{
 		empty = size - row;
-		for (hash = 1; hash <= size; hash++)
+		for (hash = 0; hash <= size; hash++)
 		{
 			if (empty >= 0)
 				_putchar(32);
