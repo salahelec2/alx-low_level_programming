@@ -10,20 +10,19 @@
 
 void more_numbers(void)
 {
-	int n, time;
+	int number, row;
 
-	for (time = 0; time < 10; time++)
+	for (row = 1; row <= 10; row++)
 	{
-		for (n = 0; n <= 14; n++)
-		{
-			if (n <= 9)
-				_putchar(n + 48);
-			else if (n > 9)
+		for (number = 0; number <= 14; number++)
+		{	
+			if (number > 9)
 			{
-				_putchar((n / 10) + 48);
-				_putchar((n % 10) + 48);
+				_putchar((number / 10) + 48);
 			}
+
+			_putchar((number % 10) + 48);
 		}
-		_putchar(10);
+		_putchar('\n');
 	}
 }
