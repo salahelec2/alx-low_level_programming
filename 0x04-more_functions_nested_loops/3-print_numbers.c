@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * print_numbers - Print numbers from 0 to 9
- * 
+ * print_numbers - the only function
+ *
+ * Description: Print from 0 to 9 using _putchar
+ *
  * Return: void
  */
 
