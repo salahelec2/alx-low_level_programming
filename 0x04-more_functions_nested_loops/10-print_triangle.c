@@ -10,9 +10,8 @@ void print_triangle(int size)
 {
 	int empty, hash, row;
 
-	if (size == 0)
+	if (size <= 0)
 	{
-		_putchar(32);
 		_putchar(10);
 		return;
 	}
