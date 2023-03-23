@@ -22,9 +22,9 @@ int main(void)
 			printf("%i", n);
 
 		if (n < 100)
-			printf(32);
+			_putchar(32);
 		else
-			printf(10);
+			_putchar(10);
 	}
 	return (0);
 }
