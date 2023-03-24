@@ -1,10 +1,22 @@
 #include <stdio.h>
 #include <math.h>
 
+/**
+ * main - the esential function
+ * Description : this c code if for prime factor calculation
+ *
+ * is_prime - function to test the prime factor
+ * Description : find the prime factor
+ *
+ * Return : void
+ *
+ */
+
+
 int is_prime(unsigned long int n);
 int main(void)
 {
-       unsigned	long int n = 612852475143, i;
+	unsigned long int n = 612852475143, i;
 
 for (i = 2; i <= sqrt(n); i++)
 {
@@ -24,7 +36,8 @@ return (0);
 
 int is_prime(unsigned long int n)
 {
-	unsigned long int i; 
+	unsigned long int i;
+
 	if (n <= 1)
 		return (0);
 	for (i = 2; i <= sqrt(n); i++)
