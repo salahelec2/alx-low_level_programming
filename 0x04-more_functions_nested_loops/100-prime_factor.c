@@ -10,7 +10,6 @@ for (i = 2; i <= sqrt(n); i++)
 {
 	if (n % i == 0 && is_prime(i))
 	{
-/*		printf("%lu ", i);*/
 		while (n % i == 0)
 		{
 			n /= i;
@@ -19,7 +18,6 @@ for (i = 2; i <= sqrt(n); i++)
 }
 if (n > 1)
 	printf("%lu", n);
-putchar(10);
 putchar(10);
 return (0);
 }
