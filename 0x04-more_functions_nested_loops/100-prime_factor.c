@@ -6,7 +6,6 @@ int main(void)
 {
 long long int n = 612852475143;
 
-printf("Prime factors of %lld are: ", n);
 for (long long int i = 2; i <= sqrt(n); i++)
 {
 	if (n % i == 0 && is_prime(i))
