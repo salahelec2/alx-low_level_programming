@@ -10,7 +10,7 @@
 void print_number(int n)
 {
 	int digit = 0, temp, i;
-	int devider;
+	unsigned int devider;
 
 	if (n < 0)
 	{
