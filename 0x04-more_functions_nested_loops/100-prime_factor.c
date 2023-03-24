@@ -3,17 +3,12 @@
 
 /**
  * main - the esential function
- * Description : this c code if for prime factor calculation
+ * Description: this c code if for prime factor calculation
  *
- * is_prime - function to test the prime factor
- * Description : find the prime factor
- *
- * Return : void
+ * Return: 0
  *
  */
 
-
-int is_prime(unsigned long int n);
 int main(void)
 {
 	unsigned long int n = 612852475143, i;
@@ -33,6 +28,12 @@ if (n > 1)
 putchar(10);
 return (0);
 }
+
+/**
+ * is_prime - returns prime factor
+ * @n: number to check
+ * Return: 0 or 1
+ */
 
 int is_prime(unsigned long int n)
 {
