@@ -21,7 +21,7 @@ void print_rev(char *s)
 		if (s[i] == '\0')
 		{
 			i--;
-			continue ;
+			continue;
 		}
 		_putchar(s[i]);
 		i--;
