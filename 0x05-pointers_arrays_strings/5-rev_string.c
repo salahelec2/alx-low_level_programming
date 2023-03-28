@@ -33,6 +33,4 @@ void print_rev(char *s)
 		s[i] = temp;
 		i++;
 	}
-	temp
-	_putchar(10);
 }
