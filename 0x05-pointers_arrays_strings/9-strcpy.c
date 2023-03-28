@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - print half
- **@str: string
+ * _strcpy - print half
+ **@src: string source
+ **@dest: destination to write string
  *
  * Return: void
  */
