@@ -9,10 +9,9 @@
 
 void print_rev(char *s)
 {
-	int i, j;
+	int i;
 
 	i = 0;
-	j = 0;
 	while (s[i] != '\0')
 	{
 		i++;
