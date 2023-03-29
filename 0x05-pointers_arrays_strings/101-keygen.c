@@ -12,12 +12,12 @@
 int main(void)
 {
 	srand((unsigned int)(time(NULL)));
-	int index;
-	index = 0;
-	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/,.-+=~`<>:";
-	for(index = 0; index < 12; index++)
+	int i;
+	i = 0;
+	char ch[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/,.-+=~`<>:";
+	for(i = 0; i < 12; i++)
 	{
-		printf("%c", characters[rand() % (sizeof characters - 1)]);
+		printf("%c", ch[rand() % (sizeof ch - 1)]);
 	}
 	return (0);
 }
