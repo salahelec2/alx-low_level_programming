@@ -8,9 +8,9 @@
  * Return: compareson value
  */
 
-char _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
-	char* comp;
+	int comp;
 	comp = strcmp(s1, s2);
 	return (comp);
 }
