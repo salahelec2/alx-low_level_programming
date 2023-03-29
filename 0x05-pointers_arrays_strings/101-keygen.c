@@ -11,10 +11,10 @@
 
 int main(void)
 {
-	srand((unsigned int)(time(NULL)));
 	int i;
 	i = 0;
 	char ch[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/,.-+=~`<>:";
+	srand((unsigned int)(time(NULL)));
 	for(i = 0; i < 12; i++)
 	{
 		printf("%c", ch[rand() % (sizeof ch - 1)]);
