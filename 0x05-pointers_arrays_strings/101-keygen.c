@@ -11,9 +11,8 @@
 
 int main(void)
 {
-	int i;
-	i = 0;
 	char ch[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/,.-+=~`<>:";
+	int i = 0;
 	srand((unsigned int)(time(NULL)));
 	for(i = 0; i < 12; i++)
 	{
