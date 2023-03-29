@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - append dest using src string by n char 
+ * _strncat - append dest using src string by n char
  * @dest: the host string
  * @src: this string will be apended to the host string
  * @n: number of character to be appended by
@@ -11,5 +11,5 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-    return (strncat(dest, src, n));
+	return (strncat(dest, src, n));
 }
