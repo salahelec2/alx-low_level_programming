@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-char separator(char *s);
+char separator(char s);
 
 /**
  * cap_string - convert lower to upper
@@ -10,17 +10,19 @@ char separator(char *s);
  * Return: str
  */
 
-char *cap_string(char *str);
+char *cap_string(char *str)
 {
 	int i, len;
 
-	len = strlen(str);
-	for (i = 0; i < n - 1; i++)
+	len = strlen(str) - 1;
+	for (i = 0; i < len; i++)
 	{
 		if (separator(str[i - 1]))
 		{
 			str[i] = toupper(str[i]);
 		}
+		else
+			str[i] = str[i];
 	}
 	return (str);
 }
@@ -33,7 +35,7 @@ char *cap_string(char *str);
 
 char separator(char s)
 {
-	int i;
+	unsigned int i;
 	char sep[] = {44, 59, 46, 33, 63, 34, 40, 41, 123, 73, 9, 10, 32};
 
 	i = 0;
