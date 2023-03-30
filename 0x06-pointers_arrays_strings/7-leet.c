@@ -10,12 +10,11 @@
 
 char *leet(char *str)
 {
-	int i, j, len;
+	unsigned int i, j, len;
 
-	len = strlen(str)
 	char letters[] = "aAeEoOtTlL";
 	char nbrs[] = "4433007711";
-
+	len = strlen(str);
 
 	for (i = 0; i < len ; i++)
 	{
