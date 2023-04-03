@@ -3,9 +3,9 @@
 
 /**
  * _strchr - locate character in string
- * @dest: First string, second string is appended to it
- * @src: Second string, it is appended to the first
- * Return: dest
+ * @s: string to search in
+ * @c: char to be found
+ * Return: pointer to the first char found
  *
  */
 char *_strchr(char *s, char c)
