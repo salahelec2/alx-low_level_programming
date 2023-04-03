@@ -22,5 +22,5 @@ char *_strchr(char *s, char c)
 		if (s[b] == c)
 			return (&s[b]);
 	}
-	return NULL;
+	return (NULL);
 }
