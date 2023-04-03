@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _memset - Conacatenates two strings together
+ * _memset - set momory location to a specific byte
  * @s: string to be modified
  * @b: word filler
  * @n: number of elements to fill
- * Return: dest
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)

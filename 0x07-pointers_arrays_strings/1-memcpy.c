@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - Conacatenates two strings together
+ * _memcpy - copy string to another by n bytes
  * @dest: receive what is copied from src
  * @src: memory area to copy from
  * @n: number of bytes to copy
