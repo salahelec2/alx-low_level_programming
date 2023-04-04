@@ -2,34 +2,30 @@
 #include <stdlib.h>
 
 /**
- * _strstr - find the first occurence of the sub string
- * @haystack : string to search in
- * @needle : substring or the search word
- * Return: pointer to the beginning of the located substr
+ * _strpbrk - find the first occurence of the sub string
+ * @s : string to search in
+ * @accept : search word
+ * Return: pointer to the byte that matches accept
  */
-
-char *_strstr(char *haystack, char *needle)
+char *_strpbrk(char *s, char *accept)
 {
-	unsigned int hl, nl, i, j;
+	unsigned int  i, sec, str, wc;
 
-	hl = 0, nl = 0;
-	while (haystack[hl] != '\0')
+	i = 0, sec = 0;
+	while (s[i] != '\0')
 	{
-		hl++;
+		i++;
 	}
-	while (needle[nl] != '\0')
+	while (accept[sec] != '\0')
 	{
-		nl++;
+		sec++;
 	}
-	for (i = 0; i <= hl - nl; i++)
+	for (str = 0; str < i; str++)
 	{
-		for (j = 0; j < nl; j++)
+		for (wc = 0; wc < sec; wc++)
 		{
-			if (haystack[i + j] != needle[j])
-				break;
+			if (s[str] == accept[wc])
+				return (&s[str])
 		}
-		if (j == nl)
-		return (&haystack[i]);
 	}
-	return (NULL);
 }
