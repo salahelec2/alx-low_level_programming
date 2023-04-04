@@ -25,7 +25,8 @@ char *_strpbrk(char *s, char *accept)
 		for (wc = 0; wc < sec; wc++)
 		{
 			if (s[str] == accept[wc])
-				return (&s[str])
+				return (&s[str]);
 		}
 	}
+	return (NULL);
 }
