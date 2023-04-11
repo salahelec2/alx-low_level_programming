@@ -19,7 +19,10 @@ char *create_array(unsigned int size, char c)
 
 	s = (char *) malloc(size * sizeof(char));
 	if (s == NULL)
+	{
+		printf("failed to allocate memory");
 		return (NULL);
+	}
 	for (n = 0; n < size; n++)
 	{
 		s[n] = c;
