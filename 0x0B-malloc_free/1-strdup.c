@@ -12,7 +12,7 @@
 char *_strdup(char *str)
 {
 	char *str_2;
-	int len, b;
+	int len;
 
 	len = strlen(str);
 	if (str == NULL)
