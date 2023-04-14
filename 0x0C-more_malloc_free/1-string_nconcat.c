@@ -19,7 +19,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	while (s1[tr1Len] != '\0')
+	while (s1[str1Len] != '\0')
 		str1Len++;
 	while (s2[str2Len] != '\0')
 		str2Len++;
@@ -34,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (i = 0; i < n; i++)
 	{
-		concatenated_string[s1_length + i] = s2[i];
+		concString[str1Len + i] = s2[i];
 	}
 	concString[str1Len + n] = '\0';
 	return (concString);
