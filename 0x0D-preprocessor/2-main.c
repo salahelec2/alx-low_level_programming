@@ -13,7 +13,7 @@ int main(void)
 
 	while (*ptr)
 	{
-		_putchar(*p);
+		_putchar(*ptr);
 		ptr++;
 	}
 	_putchar('\n');
