@@ -1,5 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
+
+/**
+ * dog_t - Typedef for struct dog
+ */
+typedef struct dog dog_t;
+
 /**
  * struct dog - dog structure definition
  * @name: dog name
