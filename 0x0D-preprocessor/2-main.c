@@ -6,12 +6,15 @@
  * Return: 0
  */
 
-int main() {
-	char* file = __FILE__;
-	char* p = file;
-	while(*p) {
+int main(void)
+{
+	char *file = __FILE__;
+	char *ptr = file;
+
+	while (*ptr)
+	{
 		_putchar(*p);
-		p++;
+		ptr++;
 	}
 	_putchar('\n');
 	return (0);
