@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 
 	number1 = atoi(argv[1]);
@@ -28,13 +28,13 @@ int main(int argc, char *argv[])
 	if (get_op_func(operator) == NULL || operator[1] != '\0')
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	if ((*operator == '/' && number2 == 0) || (*operator == '%' && number2 == 0))
 	{
 		printf("Error\n");
-		exit (100);
+		exit(100);
 	}
 	printf("%d\n", get_op_func(operator)(number1, number2));
 	return (0);
