@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * print_strings -  print strings separated by specified separator 
+ * print_strings -  print strings separated by specified separator
  *		followed by new line.
  *
  * @separator: wanted separator
