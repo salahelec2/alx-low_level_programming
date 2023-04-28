@@ -9,11 +9,11 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t created_node, *this_node;
+	list_t *created_node, *this_node;
 	size_t n;
 
 	created_node = malloc(sizeof(list_t));
-	if created_node == NULL)
+	if (created_node == NULL)
 		return (NULL);
 
 	created_node->str = _strdup(str);
