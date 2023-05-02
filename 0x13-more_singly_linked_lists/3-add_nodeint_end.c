@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - adds a node to the end of a linked list
  * @head: pointer to the first element in the list
- * @n: int to insert to the end 
+ * @n: int to insert to the end
  *
  * Return: pointer to the New node, or NULL if it fails
  */
