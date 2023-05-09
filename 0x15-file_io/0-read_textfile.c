@@ -9,30 +9,30 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int read, counter, open;
-	char *buf_letters;
+	char *bufferLet;
+	int read_func, counts, open_func;
 
 	if (filename == NULL)
 		return (0);
-	open = open(filename, O_RDONLY);
-	if (open == -1)
+	open_func = open(filename, O_RDONLY);
+	if (open_func == -1)
 		return (0);
-	buf_letters = malloc(sizeof(char) * letters);
-	if (buf_letters == NULL)
+	bufferLet = malloc(sizeof(char) * letters);
+	if (bufferLet == NULL)
 		return (0);
-	read = read(open, buf_letters, letters);
-	if (read == -1)
+	read_func = read(open_func, bufferLet, letters);
+	if (read_func == -1)
 	{
-		free(buf_letters);
+		free(bufferLet);
 		return (0);
 	}
-	counter = write(STDOUT_FILENO, buf_letters, read);
-	if (counter == -1)
+	counts = write(STDOUT_FILENO, bufferLet, read_func);
+	if (counts == -1)
 	{
-		free(buf_letters);
+		free(bufferLet);
 		return (0);
 	}
-	close(open);
-	free(buf_letters);
-	return (counter);
+	close(open_func);
+	free(bufferLet);
+	return (counts);
 }
