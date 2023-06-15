@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * add_dnodeint - add new element at beginiing of list
- * @head: pointer
- * @n: element in list
+ * add_dnodeint - add new element to the beginning 
+ * @head: pointer to head
+ * @n: list element
  * Return: new Element
  */
 
