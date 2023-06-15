@@ -2,24 +2,24 @@
 #include <stdlib.h>
 
 /**
- * add_dnodeint - create new element to beginning of list
+ * add_dnodeint - add new element at beginiing of list
  * @head: pointer
  * @n: element in list
- * Return: the new element
+ * Return: new Element
  */
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *newly;
+	dlistint_t *new;
 
-	newly = malloc(sizeof(dlistint_t));
-	if (newly == NULL)
+	new = malloc(sizeof(dlistint_t));
+	if (new == NULL)
 		return (NULL);
-	newly->prev = NULL;
-	newly->next = *head;
-	newly->nb = n;
+	new->prev = NULL;
+	new->next = *head;
+	new->n = n;
 	if (*head != NULL)
-		(*head)->prev = newly;
-	*head = newly;
-	return (newly);
+		(*head)->prev = new;
+	*head = new;
+	return (new);
 }
