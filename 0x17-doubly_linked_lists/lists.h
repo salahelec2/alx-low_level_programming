@@ -11,6 +11,8 @@ typedef struct dlistint_s
 } dlistint_t;
 
 int sum_dlistint(dlistint_t *head);
+dlistint_t *create_dnode(int n, dlistint_t *prev, dlistint_t *next);
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 void free_dlistint(dlistint_t *head);
 size_t print_dlistint(const dlistint_t *h);
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
