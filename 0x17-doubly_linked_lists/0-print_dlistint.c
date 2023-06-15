@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * print_dlistint - prints listint_t list elements.
- * @h: doubly linked list head
- * Return: nodes number
+ * print_dlistint - print list  elements.
+ * @h: dllist element
+ * Return: node number
  */
 
 size_t print_dlistint(const dlistint_t *h)
@@ -20,5 +20,5 @@ size_t print_dlistint(const dlistint_t *h)
 		n++;
 		pointer = pointer->next;
 	}
-	return (int)n;
+	return (n);
 }
